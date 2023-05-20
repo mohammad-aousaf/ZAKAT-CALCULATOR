@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="main">
+            <nav class="navbar">
+                <h1> The Zakat Calculator</h1>
+            </nav>
+            <div class="calculator">
+                <label for="goldValue" class="text">Gold Value </label>
+                <input type="number" id="goldValue" placeholder="0.00">
+
+                <label for="silverValue" class="text">Silver Value</label>
+                <input type="number" id="silverValue" placeholder="0.00">
+
+                <label for="cashAmount" class="text">Cash Amount</label>
+                <input type="number" id="cashAmount" placeholder="0.00">
+
+                <button onclick="calculateZakat()">Calculate Zakat</button>
+                <button onclick="clearZakat()" class="btn">Clear</button>
+                
+                <h2 id="zakatAmount"></h2>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>

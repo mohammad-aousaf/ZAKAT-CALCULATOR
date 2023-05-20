@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+
+.main{
+    background-color: #bebbbb;
+}
+
+.navbar{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;    
+    background-color: rgb(34, 34, 32);
+    color: rgb(243, 240, 240);
+}
+
+h1{
+font-size: 60px;
+}
+
+
+.calculator {
+   
+   
+    background-color: #bebbbb;
+    border-radius: 5px;
+    padding-left: 340px;
+    margin-top: 20px;
+    width: 50%;
+    height: 150%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .text{
+    font-family: 'Playfair Display', serif;
+    font-size: xx-large;
+    font-weight: 100;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn{
+    background-color: #9e410a;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  }
+  
+  h2#zakatAmount {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
